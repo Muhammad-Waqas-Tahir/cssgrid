@@ -1,0 +1,35 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(309px, 1fr));
+  gap: 19px;
+  /* margin: auto; */
+
+  background-color: #db1d1d;
+}
+
+.card {
+  border: 2px solid red;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(20, 228, 255);
+  border-radius: 10px;
+}
+
+.card__img img {
+  width: 100px;
+}
+.card__text h5 {
+  background-color: chartreuse;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 10px;
+  color: #db1d1d;
+  font-size: 15px;
+}
